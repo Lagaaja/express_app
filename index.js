@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.send('<h1>Hello World!</h1>')
-  res.send('<p>Watchtower is monitoring this container.</p>')
+  res.send('<p>Watchtower is watching us!</p>')
 })
 
 const PORT = 8080
